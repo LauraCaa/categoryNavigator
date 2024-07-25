@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+button{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 8px 10px;
+    float: right;
+}
+.category-page{
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+}
+.category-page button{
+    float: left;
+}
+.design{
+    background-color: #fb59a573;
+}
+.development{
+    background-color: #6795f8aa;
+}
+.docker{
+    background-color: #5bf4ed61;
+}
+.fintech{
+    background-color: #81f9817a;
+}
+.insurance{
+    background-color: #d884f661;
+}
+.logistics{
+    background-color: #fbb0606d;
+}
+.technology{
+    background-color: #fdf85a75;
+}
+.category-page-header{
+    margin-bottom: 20px;
+}
+.category-page h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.category-page h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.category-page span{
+    font-size: 14px;
+}
+.category-page p{
+    text-align: justify;
+    font-size: 20px;line-height: 30px;
+}
+img{
+    width: 400px;
+}

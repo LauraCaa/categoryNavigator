@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html, body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    overflow-x: hidden; /* Previene el overflow horizontal en el body */
+}
+.main-container {
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+    width: 100%;
+    max-width: 1000px; /* Limita el ancho máximo */
+    overflow: auto; /* Permite el scroll vertical y horizontal en el contenedor principal */
+}
+.category button{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px 7px;
+    float: right;
+}
+.main-container div.title {
+    width: 100%;
+}
+.main-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+.main-container .categories-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Ajusta las columnas para que se adapten mejor */
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    overflow-x: auto;
+}
+.categories-container .category {
+    border-radius: 20px;
+    height: fit-content;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 280px;
+}
+.design{
+    background-color: #FBDBEA;
+}
+.development{
+    background-color: #cfdeff;
+}
+.docker{
+    background-color: #CFF6F4;
+}
+.fintech{
+    background-color: #E7FEE7;
+}
+.insurance{
+    background-color: #F8E7FE;
+}
+.logistics{
+    background-color: #fdd0a0;
+}
+.technology{
+    background-color: #fbf8b1;
+}
+.category h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.category span{
+    padding-top: 30px;
+    font-size: 12px;
+}
+.category p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.category div{
+    text-align: center;
+}
+.category img{
+    margin: 0;
+    width: 200px;
+}
